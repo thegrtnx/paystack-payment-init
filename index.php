@@ -4,7 +4,7 @@ $key = "";
 
 $fields = [
     'email' => "customer@email.com",
-    'amount' => "20000",
+    'amount' => "200" * 100, //amount will be NGN200
     'callback_url' => "http://localhost/paystack/test.php",
     'metadata' => ["cancel_action" => "http://localhost/paystack/what.php"]
 ];
